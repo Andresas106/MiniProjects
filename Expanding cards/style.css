@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    padding: 15px;
+}
+
+div {
+    border-radius: 35px;
+    height: 90vh;
+    width: 15vh;
+    margin: 15px;
+    transition: width 1s ease-in;
+    display: flex;
+    align-items: flex-end;
+}
+
+div:nth-child(1){
+    background-image: url("resources/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 115vh;
+    
+}
+
+div:nth-child(2){
+    background-image: url("resources/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div:nth-child(3){
+    background-image: url("resources/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div:nth-child(4){
+    background-image: url("resources/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div:nth-child(5){
+    background-image: url("resources/fondo5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div:nth-child(1){
+    background-image: url("resources/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 115vh;
+    
+}
+
+div:nth-child(2) h3, div:nth-child(3) h3, div:nth-child(4) h3, div:nth-child(5) h3{
+    transition: display 1s ease-out;
+    display: none;
+}
+div h3{
+    color: white;
+    margin-left: 25px;
+    font-size: 25px;
+}
