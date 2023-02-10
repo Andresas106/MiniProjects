@@ -10,11 +10,11 @@ function expand(num)
 
         for(let i=0;i<elements.length;i++)
         {
-            elements[i].style.width = "15vh";
+            elements[i].style.width = "15vw";
             heading3[i].style.display = "none";
         }
 
-        elements[num].style.width = "115vh";
+        elements[num].style.width = "215vw";
 
         window.setTimeout(timer, 500, heading3[num]);
     }

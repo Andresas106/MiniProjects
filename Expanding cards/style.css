@@ -6,7 +6,7 @@ body {
 div {
     border-radius: 35px;
     height: 90vh;
-    width: 15vh;
+    width: 15vw;
     margin: 15px;
     transition: width 1s ease-in;
     display: flex;
@@ -17,7 +17,7 @@ div:nth-child(1){
     background-image: url("resources/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 115vh;
+    width: 215vw;
     
 }
 
@@ -46,14 +46,6 @@ div:nth-child(5){
     background-image: url("resources/fondo5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-
-div:nth-child(1){
-    background-image: url("resources/fondo1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 115vh;
     
 }
 
