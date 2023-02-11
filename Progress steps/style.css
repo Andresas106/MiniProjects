@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    width: 350px;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.progress::before {
+    content: "";
+    position: absolute;
+    top: 48%;
+    left: 0;
+    height: 4px;
+    width: 99%;
+    background-color: gray;
+    z-index: -1;
+}
+
+.line {
+    height: 4px;
+    background-color: rgb(119, 218, 204);
+    position: absolute;
+    z-index: -1;
+    top: 48%;
+    left: 0;
+    width: 0%;
+    transition: width 1s ease;
+}
+
+.number {
+    display: flex;
+    border: 3px solid gray;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: border-color 1s ease;
+}
+
+.progress div:nth-child(2) {
+    border-color: rgb(119, 218, 204);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 15px;
+    border: 0;
+    
+}
+
+.buttons button:nth-child(1) {
+    background-color: lightgray;
+    color: black;
+    cursor: not-allowed;
+}
+
+.buttons button:nth-child(2) {
+    background-color: rgb(119, 218, 204);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
