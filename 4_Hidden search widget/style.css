@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+button {
+    border: 0;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button img {
+    width: 25px;
+    height: 25px;
+}
+
+input {
+    height: 48px;
+    border: 0;
+    width: 0;
+    transition: width 0.5s linear;
+}
+
+input:focus {
+    outline: none;
+}
+
+.active {
+    width: 150px;
+}
