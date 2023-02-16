@@ -1,0 +1,29 @@
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    width: 450px;
+    height: 300px;
+    background-color: rgb(52, 52, 187);
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translateX(300%);
+    transition: transform 0.25s linear;
+}
+
+.pair {
+    transform: translateX(-300%);
+}
+
+.show {
+    transform: translateX(0);    
+}
