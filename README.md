@@ -6,3 +6,4 @@ In this repository i'm showing 50 projects that i've done using HTML, CSS & Java
 3. Rotating navigation animation
 4. Hidden search widget
 5. Blurry loading
+6. Scroll Animation
