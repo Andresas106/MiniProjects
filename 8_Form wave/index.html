@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form wave</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="load()">
+    <div class="container">
+        <h1>Please login</h1>
+        <form>
+            
+            <input class="inputemail" type="text" onfocus="focusEl(this)" onblur="unfocus(this)">
+            <div class="email" >
+                <span class="elementsEmail">E</span>
+                <span class="elementsEmail">m</span>
+                <span class="elementsEmail">a</span>
+                <span class="elementsEmail">i</span>
+                <span class="elementsEmail">l</span>
+            </div>
+            <input  class="inputpassw" type="password" onfocus="focusEl(this)" onblur="unfocus(this)">
+            <div class="password">
+                <span class="elementsPassw">P</span>
+                <span class="elementsPassw">a</span>
+                <span class="elementsPassw">s</span>
+                <span class="elementsPassw">s</span>
+                <span class="elementsPassw">w</span>
+                <span class="elementsPassw">o</span>
+                <span class="elementsPassw">r</span>
+                <span class="elementsPassw">d</span>
+            </div>
+            <button>Login</button>
+            <p>Don't have an account?<a href="#">Register</a></p>
+        </form>
+    </div>
+</body>
+</html>
