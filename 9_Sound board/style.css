@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    overflow: hidden;
+}
+
+div {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+button {
+    padding: 25px 35px;
+    background-color: rgb(131, 62, 131);
+    border: 0;
+    border-radius: 5%;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}

@@ -8,3 +8,5 @@ In this repository i'm showing 50 projects that i've done using HTML, CSS & Java
 5. Blurry Loading
 6. Scroll Animation
 7. Split Landing Page
+8. Form wave
+9. Sound board
