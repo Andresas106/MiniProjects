@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(218, 201, 179);
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.load {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 25px;
+}
+
+.keys div {
+    margin-right: 5%;
+    text-align: center;
+}
+
+.text {
+    min-width: 117px;
+    padding: 0 25px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+p{
+    margin: 0;
+    margin-bottom: 2px;
+    color: rgb(146, 131, 131);
+}
+
+.not-active{
+    display: none;
+}
+
+.active {
+    display: flex;
+}

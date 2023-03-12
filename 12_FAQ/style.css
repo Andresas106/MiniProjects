@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(223, 223, 223);
+}
+
+.items {
+    width: 650px;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    width: 90%;
+}
+
+button {
+    background-image: url("resources/down-arrow.png");
+    background-size: cover;
+    border: 0;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.items div {
+    
+    width: 100%;
+}
+
+.noactive {
+    display: none;
+}
+
+.active-items{
+    background-color: white;
+}
+
+.active-button {
+    background-image: url("resources/cross.png");
+}

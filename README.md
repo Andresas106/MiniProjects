@@ -11,3 +11,5 @@ In this repository i'm showing 50 projects that i've done using HTML, CSS & Java
 8. Form wave
 9. Sound board
 10. Dad's jokes
+11. Event keycodes
+12. FAQ
