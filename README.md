@@ -1,5 +1,5 @@
-# 50projects
-In this repository i'm showing 50 projects that i've done using HTML, CSS & Javascript.
+# Miniprojects
+In this repository i'm showing mini projects that i've done using HTML, CSS & Javascript.
 
 1. Expanding Cards
 2. Progress Steps
